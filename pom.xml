@@ -10,23 +10,22 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.cadastro.plano.saude</groupId>
-	<artifactId>Plano-Saude</artifactId>
+	<groupId>com.cadastro.recepcao.pedido</groupId>
+	<artifactId>recepcao-pedido</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Plano-Saude</name>
+	<name>recepcao-pedido</name>
 
-	<description>uma API REST para manter o cadastro de beneficiários de um plano de saúde</description>
+	<description>API REST para recepção de pedidos de clientes</description>
 
 	<modules>
-		<module>plano-saude-core</module>
-		<module>plano-saude-canonico</module>
-		<module>plano-saude-dto</module>
-		<module>plano-saude-repository</module>
-		<module>plano-saude-service</module>
-		<module>plano-saude-controller</module>
-		<module>plano-saude-util</module>
-		<module>plano-saude-infrastructure</module>
+		<module>recepcao-pedido-core</module>
+		<module>recepcao-pedido-canonico</module>
+		<module>recepcao-pedido-dto</module>
+		<module>recepcao-pedido-repository</module>
+		<module>recepcao-pedido-service</module>
+		<module>recepcao-pedido-controller</module>
+		<module>recepcao-pedido-util</module>
 	</modules>
 
 	<properties>
